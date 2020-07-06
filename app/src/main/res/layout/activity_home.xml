@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_home"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+            <TextView
+                    android:text="@string/space"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <ImageView
+                    android:src="@drawable/plane"
+                    android:layout_width="57dp"
+                    android:layout_height="72dp"/>
+
+            <TextView
+                    android:text="@string/travel"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ahmed.easyslider.EasySlider
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="280dp">
+
+    </ahmed.easyslider.EasySlider>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <!--kolom pertama-->
+        <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <!--baris pertama-->
+            <RelativeLayout
+                    android:layout_weight="1"
+                    android:background="#b6cafa"
+                    android:layout_margin="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:src="@drawable/bus"
+                        android:layout_width="119dp"
+                        android:layout_height="182dp" android:layout_marginTop="10dp" android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp" android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp" android:layout_marginBottom="10dp"/>
+                <TextView
+                        android:text="bus"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+            <!--baris pertama-->
+            <RelativeLayout
+                    android:layout_weight="1"
+                    android:background="#b6cafa"
+                    android:layout_margin="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:src="@drawable/kapall"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"/>
+                <TextView
+                        android:text="kapal laut"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!--kolom kedua-->
+        <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <!--baris pertama-->
+            <RelativeLayout
+                    android:layout_weight="1"
+                    android:background="#b6cafa"
+                    android:layout_margin="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:src="@drawable/pesawatt"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"/>
+                <TextView
+                        android:text="pesawat terbang"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+            <!--baris pertama-->
+            <RelativeLayout
+                    android:layout_weight="1"
+                    android:background="#b6cafa"
+                    android:layout_margin="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:src="@drawable/helikopter"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"/>
+                <TextView
+                        android:text="helikopter"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!--kolom ketiga-->
+
+        <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <!--baris pertama-->
+            <RelativeLayout
+                    android:layout_weight="1"
+                    android:background="#b6cafa"
+                    android:layout_margin="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:src="@drawable/keretaapi"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"/>
+                <TextView
+                        android:text="kereta api"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+            <!--baris pertama-->
+            <RelativeLayout
+                    android:layout_weight="1"
+                    android:background="#b6cafa"
+                    android:layout_margin="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:src="@drawable/roket"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:layout_marginTop="10dp" android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"/>
+                <TextView
+                        android:text="roket"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="150dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
